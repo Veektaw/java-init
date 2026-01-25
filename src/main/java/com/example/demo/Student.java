@@ -34,7 +34,7 @@ public class Student {
         this.age = age;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
-        this.gpa = gpa
+        this.gpa = gpa;
     }
 
     public Student() {

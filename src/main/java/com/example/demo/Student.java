@@ -20,18 +20,21 @@ public class Student {
 
     private int age;
 
+    private double gpa;
+
     @Column(updatable = false)
     private String createdAt;
 
     private String updatedAt;
 
-    public Student(String firstName, String lastName, String email, int age, String createdAt, String updatedAt) {
+    public Student(String firstName, String lastName, String email, int age, String createdAt, String updatedAt, double gpa) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.age = age;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
+        this.gpa = gpa
     }
 
     public Student() {
